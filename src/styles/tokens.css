@@ -1,0 +1,11 @@
+:root {
+    --main-bg-color: #080B12;
+    --secondary-bg-color: #0D1220;
+    --elevated-card-bg-color: #111827;
+    --primary-text-color: #F3F6FC;
+    --secondary-text-color: #A5B1C5;
+    --primary-accent-color: #64B5FF;
+    --secondary-accent-color: #8B7CFF;
+    --subtle-border-color: #253147;
+    --success-indicator-color: #65D6AD;
+}

@@ -1,0 +1,34 @@
+# Dependencies and generated output
+node_modules/
+dist/
+.vercel/
+.netlify/
+
+# Environment files and local-only settings
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+.vscode/*.local.json
+
+# Credentials, private keys, and local secret stores
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+credentials/
+credentials.json
+credentials.*.json
+secrets/
+secrets.json
+secrets.*.json
+
+# Operating-system and tool output
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
