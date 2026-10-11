@@ -66,9 +66,7 @@ Without a real endpoint the form explains that delivery is not configured. Do no
 
 The output of `npm run build` is written to `dist/`. `vercel.json` configures the Vite output and rewrites direct route requests to the SPA entry point. The local development and preview servers bind to `127.0.0.1`. Add a canonical URL only after a real production domain has been selected.
 
-Publishing still requires an authorized Git remote or Vercel account.
-
-No deployment provider, account authorization, or public repository is configured in this workspace.
+The Vite project is prepared for Vercel, but no production deployment has been created or verified. Connect the intended GitHub repository to Vercel, use `npm run build` as the build command and `dist` as the output directory, and configure `VITE_CONTACT_FORM_ENDPOINT` in the Vercel project settings if contact-form delivery is enabled. `vercel.json` provides the SPA rewrite for direct visits to the portfolio routes.
 
 ## Contact verification
 
@@ -76,4 +74,4 @@ The GitHub username supplied for this portfolio is `gutatkebede-coder`; the prof
 
 ## GitHub repository
 
-The intended repository is `https://github.com/gutatkebede-coder/guta-teshome-portfolio`. Git initialization, authentication, and publishing must be completed from an authorized Git environment.
+The intended repository is `https://github.com/gutatkebede-coder/guta-teshome-portfolio`. Publishing requires GitHub authentication and confirmation that the remote history is compatible; do not force-push over existing commits.
